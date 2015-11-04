@@ -1,0 +1,10 @@
+[Unit]
+Description=Rotate GNOME wallpaper timer
+
+[Timer]
+OnCalendar=*:0/1
+Persistent=true
+Unit=gnome-background-change.service
+
+[Install]
+WantedBy=gnome-background-change.service

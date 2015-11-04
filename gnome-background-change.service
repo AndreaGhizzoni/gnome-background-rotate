@@ -1,0 +1,10 @@
+[Unit]
+Description=Rotate GNOME background
+
+[Service]
+Type=oneshot
+Environment=DISPLAY=:0
+ExecStart=/bin/bash /bin/rotate.sh
+
+[Install]
+WantedBy=basic.target
