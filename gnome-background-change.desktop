@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=gnome-background-change.timer
+Exec=systemctl --user start gnome-background-change.timer
+Terminal=false
+StartupNotify=true
+
